@@ -30,6 +30,12 @@ spring:
                 - '**/*.gson'
                 - 'logback.groovy'
                 - '*.properties'
+server:
+    error:
+        whitelabel:
+            enabled: false
+    servlet:
+        context-path: /synchr
 management:
     endpoints:
         enabled-by-default: false
